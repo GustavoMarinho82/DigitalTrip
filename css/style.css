@@ -82,6 +82,13 @@
     text-align: justify;
   }
 
+  #bodycont li{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+    text-align: justify;
+  }
+
   .center {
     display: block;
     margin-top: 20px;
