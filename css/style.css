@@ -3,7 +3,7 @@
  /* Three columns side by side */
  .column {
     float: left;
-    width: 33.3%;
+    width: 25%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
@@ -47,6 +47,7 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
+    margin-top: 100px;
   }
   
   .button:hover {
@@ -60,20 +61,37 @@
   }
 
   #bodycont{
-    margin:35px auto 20px auto;
-    width:60%;
-    height:auto;
+    margin: 18px auto 0 auto;
     padding-bottom:60%;
-    background-color:#ffff;
     overflow:auto;
+    width:100%;
+    
   }
 
   #bodycont h1{
     text-align: center;
-    background-color: rgb(104, 240, 133);
     font-weight:bold;
     padding-bottom: 10px;
-    display: inline-block;
-
+    margin-top: 25px;
   }
 
+  #bodycont p{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 100px;
+    text-align: justify;
+  }
+
+  .center {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+    height: 273px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  
+  }
