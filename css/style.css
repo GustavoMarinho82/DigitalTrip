@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+ 
  /* Three columns side by side */
  .column {
     float: left;
@@ -57,4 +59,21 @@
 
   }
 
- 
+  #bodycont{
+    margin:35px auto 20px auto;
+    width:60%;
+    height:auto;
+    padding-bottom:60%;
+    background-color:#ffff;
+    overflow:auto;
+  }
+
+  #bodycont h1{
+    text-align: center;
+    background-color: rgb(104, 240, 133);
+    font-weight:bold;
+    padding-bottom: 10px;
+    display: inline-block;
+
+  }
+
